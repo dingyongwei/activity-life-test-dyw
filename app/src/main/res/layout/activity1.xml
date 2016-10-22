@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="启动Activity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_act2" />
+
+    <TextView
+        android:text="以下位置的文字会在跳转到其他Activity（Activity2、Activity3均可）返回后,或者将手机横屏后继续存在，请输入任意文本后，点击任意按钮尝试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tishi1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="请在此输入用以验证的文字"
+        android:ems="10"
+        android:id="@+id/save" />
+
+    <Button
+        android:text="启动带返回值的Activity3，得到的返回值如下："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Act3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fanhui" />
+</LinearLayout>
